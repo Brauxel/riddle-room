@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* 
+	CSS Document for Riddle Room
+	by Aakash Bhatia
+    Email: akash.bhatia1184@gmail.com
+	URI: http://thebrauxelcode.com/
+	Page: Lab Room
+*/
+
+html {
+	background: url(../images/lab-room-bg.jpg) no-repeat center center fixed;
+
+}
