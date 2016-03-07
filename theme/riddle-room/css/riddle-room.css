@@ -1402,6 +1402,64 @@ th.product-name, th.product-price, th.product-quantity, th.product-subtotal, .wo
 	top:300px;
 	right:-50px;
 }
+
+.featured-links {
+	width:100%;
+	position:absolute;
+	bottom:-50px;
+	z-index:9999;
+	background-color:#000;
+	overflow:hidden;
+	padding-bottom:20px;
+}
+.featured-links p.title {
+	color:#2d92d8;
+	font-size:20px;
+	line-height:1.5;
+	width:100%;
+	text-align:center;
+	font-style:normal;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:normal;
+	margin-bottom:20px;
+	margin-top:20px;
+}
+
+.featured-links a {
+	background-repeat:no-repeat;
+	background-position:center center;
+	width:165px;
+	height:68px;
+	margin-right:20px;
+	float:left;
+	background-size:contain;
+	text-indent:-1000px;
+	overflow:hidden;
+}
+	.featured-links a.last {
+		margin-right:0px;
+	}
+	.featured-links a.deccan-chronicle {
+		background-image:url(../images/deccan-chronicle.png);
+	}
+	.featured-links a.the-hindu {
+		background-image:url(../images/hindu.png);
+	}
+	.featured-links a.indulge {
+		background-image:url(../images/indulge.png);
+	}
+	.featured-links a.llb {
+		background-image:url(../images/llb.png);
+	}
+	.featured-links a.office-chai {
+		background-image:url(../images/office-chai.png);
+	}
+	.featured-links a.polka {
+		background-image:url(../images/polka.png);
+	}
+	.featured-links a.times {
+		background-image:url(../images/times.png);
+	}
 /* Media Queries */
 @media (max-width: 1279px) {
 	.container-3 {
@@ -1427,6 +1485,9 @@ th.product-name, th.product-price, th.product-quantity, th.product-subtotal, .wo
 	}
 	.responsive-header {
 		display:block;
+	}
+	.featured-links {
+		display:none;
 	}
 }
 @media (max-width: 800px) {
