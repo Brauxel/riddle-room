@@ -1,3 +1,36 @@
+<?php if(is_page_template( 'archive.php' )): ?>
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Riddel Room</title>
+    <link type="text/css" rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/riddle-room-blog.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+    <?php wp_head(); ?>
+</head>
+<body>
+	<header>
+    	<div class="wrap">
+	    	<a id="logo" href="#">Riddle Room</a>
+            
+            <nav>
+            	<ul>
+                	<li><a href="#">About Us</a></li>
+                	<li><a href="#">Game Room</a></li>
+                	<li><a href="#">Who Can Play</a></li>
+                	<li><a href="#">Book Now</a></li>
+                	<li><a href="#">FAQs</a></li>
+                	<li><a href="#">Contact</a></li>
+                	<li><a href="#">Blog</a></li>
+                    <div class="clear"></div>
+                </ul>
+            </nav>
+			<div class="clear"></div>
+            
+		</div>
+    </header>
+<?php else: ?>
 <!doctype html>
 <html>
 <head>
@@ -69,3 +102,4 @@
             <!-- header.responsive-header ENDS -->
             </header>
             <?php endif; ?>
+<?php endif; ?>
