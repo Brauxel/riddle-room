@@ -6,6 +6,7 @@ body {
 	font-size:14px;
 	line-height:1.5;
 	color:#545454;
+	margin:0px;
 }
 .wrap {
 	width:1200px;
@@ -119,6 +120,7 @@ main {
 				top:30px;
 				z-index:999;
 				visibility:hidden;
+				background-color:#fff;
 			}
 				.archives li ul li {
 					width:100%;
@@ -160,4 +162,17 @@ a.continue-reading {
 	color:#2f75a6;
 	font-family: 'Montserrat', sans-serif;
 	font-weight:bold;
+}
+
+.blog-single article {
+	width:100%;
+	overflow:hidden;
+}
+.blog-single p.author {
+	text-align:center;
+}
+
+.blog-single img.featured-image {
+	display:block;
+	margin:0 auto;
 }

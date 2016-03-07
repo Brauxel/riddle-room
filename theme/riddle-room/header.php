@@ -1,4 +1,4 @@
-<?php if(is_page_template( 'archive.php' )): ?>
+<?php if(is_page_template( 'archive.php' ) || is_single()): ?>
 <!doctype html>
 <html>
 <head>
