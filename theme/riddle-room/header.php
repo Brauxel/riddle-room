@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/riddle-room-blog.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic" rel="stylesheet" type="text/css">
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
     <?php wp_head(); ?>
 </head>
 <body>

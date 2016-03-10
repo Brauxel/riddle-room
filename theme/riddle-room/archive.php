@@ -9,7 +9,7 @@ get_header(); ?>
             
             <h1>Riddle Room <br>Blog</h1>
             
-            <ul class="archives">
+            <!--<ul class="archives">
             	<li><a href="#">Markup</a></li>
             	<li><a href="#">News &amp; Announcements</a></li>
             	<li><a href="#">Trends</a></li>
@@ -23,7 +23,7 @@ get_header(); ?>
                     </ul>
                 </li>
                 <div class="clear"></div>
-            </ul>
+            </ul>-->
             
             <?php $query = new WP_Query( array( 'post_type' => 'post' ) ); ?>
             <?php if ( $query->have_posts() ): ?>
