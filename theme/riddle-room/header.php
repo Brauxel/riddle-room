@@ -13,17 +13,17 @@
 <body>
 	<header>
     	<div class="wrap">
-	    	<a id="logo" href="#">Riddle Room</a>
+	    	<a id="logo" href="<?php bloginfo( 'url' ); ?>">Riddle Room</a>
             
             <nav>
             	<ul>
-                	<li><a href="#">About Us</a></li>
-                	<li><a href="#">Game Room</a></li>
-                	<li><a href="#">Who Can Play</a></li>
-                	<li><a href="#">Book Now</a></li>
-                	<li><a href="#">FAQs</a></li>
-                	<li><a href="#">Contact</a></li>
-                	<li><a href="#">Blog</a></li>
+                	<li><a href="<?php bloginfo( 'url' ); ?>/about-us/">About Us</a></li>
+                        <li><a href="<?php bloginfo( 'url' ); ?>/home/">Game Room</a></li>
+                        <li><a href="<?php bloginfo( 'url' ); ?>/who-can-play/">Who Can Play</a></li>
+                        <li><a href="<?php bloginfo( 'url' ); ?>/booking/">Book Now</a></li>
+                        <li><a href="<?php bloginfo( 'url' ); ?>/faqs/">FAQs</a></li>
+	                	<li><a href="<?php bloginfo( 'url' ); ?>/blog/">Blog</a></li>
+                        <li><a href="<?php bloginfo( 'url' ); ?>/contact-us/">Contact</a></li>
                     <div class="clear"></div>
                 </ul>
             </nav>
@@ -87,7 +87,9 @@
                         <li><a href="<?php bloginfo( 'url' ); ?>/who-can-play/">Who Can Play</a></li>
                         <li><a href="<?php bloginfo( 'url' ); ?>/booking/">Book Now</a></li>
                         <li><a href="<?php bloginfo( 'url' ); ?>/faqs/">FAQs</a></li>
+	                	<li><a href="<?php bloginfo( 'url' ); ?>/blog/">Blog</a></li>
                         <li><a href="<?php bloginfo( 'url' ); ?>/contact-us/">Contact</a></li>
+                        <li><a href="https://www.tripadvisor.in/Attraction_Review-g297628-d8659089-Reviews-Riddle_Room-Bengaluru_Bangalore_Karnataka.html" target="_blank" class="tripadvisor">Trip Advisor</a></li>
                     </ul>
                     <div class="clear"></div>
                     
