@@ -3,11 +3,14 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <title>Riddel Room</title>
+    <title>Riddle Room</title>
     <link type="text/css" rel="stylesheet" href="<?php bloginfo( 'template_url' ); ?>/css/riddle-room-blog.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic" rel="stylesheet" type="text/css">
     <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'/ >
+    
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery.js"></script>
+    <script src="<?php bloginfo( 'template_url' ); ?>/js/jquery-ui.min.js"></script>
     <?php wp_head(); ?>
 </head>
 <body>
@@ -16,9 +19,15 @@
 	    	<a id="logo" href="<?php bloginfo( 'url' ); ?>">Riddle Room</a>
             
             <nav>
-            	<ul>
+            	<ul id="nav">
                 	<li><a href="<?php bloginfo( 'url' ); ?>/about-us/">About Us</a></li>
-                        <li><a href="<?php bloginfo( 'url' ); ?>/home/">Game Room</a></li>
+                        <li>
+                        	<a href="<?php bloginfo( 'url' ); ?>/home/">Game Room</a>
+                            <ul>
+                                <li><a href="<?php bloginfo( 'url' ); ?>/lab-room/">The Lab</a></li>
+                                <li><a href="<?php bloginfo( 'url' ); ?>/egypt-room/">The Tomb</a></li>
+                            </ul>
+                        </li>
                         <li><a href="<?php bloginfo( 'url' ); ?>/who-can-play/">Who Can Play</a></li>
                         <li><a href="<?php bloginfo( 'url' ); ?>/booking/">Book Now</a></li>
                         <li><a href="<?php bloginfo( 'url' ); ?>/faqs/">FAQs</a></li>
